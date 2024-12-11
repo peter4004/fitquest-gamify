@@ -1,4 +1,4 @@
-import { BarChart, Star, Trophy, Dumbbell, Activity, Fire } from "lucide-react";
+import { BarChart, Star, Trophy, Dumbbell, Activity, Flame } from "lucide-react";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Progress } from "@/components/ui/progress";
@@ -8,7 +8,7 @@ const Dashboard = () => {
     { label: "Current Rank", value: "Silver", icon: Trophy, color: "text-secondary" },
     { label: "Total Points", value: "2,547", icon: Star, color: "text-yellow-500" },
     { label: "Workouts", value: "24", icon: Dumbbell, color: "text-primary" },
-    { label: "Streak", value: "5 days", icon: Fire, color: "text-orange-500" },
+    { label: "Streak", value: "5 days", icon: Flame, color: "text-orange-500" },
   ];
 
   const bodyGroups = [
